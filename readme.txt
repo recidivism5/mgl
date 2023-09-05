@@ -5,7 +5,8 @@ Then I added the necessary window creation code from https://gist.github.com/mmo
 
 The plan is to have single C files for different versions, that each compile for Windows,Linux,MacOS using buildWindows.bat,buildLinux.sh,buildMacOS.sh respectively. That is, there will be preprocessor shit to separate the platform code within the file.
 
-So far I only have mgl20 (OpenGL 2.0) for Windows.
+mgl20: OpenGL 2.0
+mgl33: OpenGL 3.3 Core Profile
 
 Build guide:
 Windows: ./buildWindows.bat mgl20
