@@ -1,5 +1,5 @@
 with open("glad.h","r") as f:
-    with open("mgl2.h","w") as o:
+    with open("mgl.h","w") as o:
         with open("gl.h","r") as g:
             gl = g.read().split('\n')
             legacy = {}

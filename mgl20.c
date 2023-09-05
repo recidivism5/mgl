@@ -1,5 +1,6 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
+
 #define WGL_NUMBER_PIXEL_FORMATS_ARB      0x2000
 #define WGL_DRAW_TO_WINDOW_ARB            0x2001
 #define WGL_DRAW_TO_BITMAP_ARB            0x2002
